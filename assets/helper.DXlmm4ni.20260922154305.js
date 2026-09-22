@@ -1,0 +1,1 @@
+import{d as e,n as t,u as n}from"./index.C7t5ZQxJ.20260922154305.js";var r=`ScanCode`,i=`code`;function a(i={}){let{redirect:a,query:o}=i;return t.push({name:r,query:{...o,...a===void 0?{}:{[n]:e(a)}}})}export{a as n,i as t};

@@ -1,0 +1,34 @@
+<!--
+  PWA maskable 图标源文件：底满幅不留圆角（系统遮罩会裁掉边缘），
+  图形缩到中心 80% 安全区内
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ac16b" />
+      <stop offset="1" stop-color="#05914f" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)" />
+  <!-- 缩放到 60% 并居中：512 * 0.6 = 307.2 -->
+  <g transform="translate(102.4 102.4) scale(0.6)">
+    <rect
+      x="104"
+      y="186"
+      width="272"
+      height="140"
+      rx="28"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="28"
+    />
+    <rect x="388" y="228" width="28" height="56" rx="12" fill="#ffffff" />
+    <path
+      d="M268 208 L204 292 L252 292 L232 336 L316 244 L266 244 Z"
+      fill="#ffffff"
+      stroke="#ffffff"
+      stroke-width="10"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

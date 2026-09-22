@@ -1,0 +1,1 @@
+import{d as e,g as t,k as n}from"./runtime-core.esm-bundler.z6JJE0Ug.20260922154305.js";import{g as r,h as i,o as a,p as o,u as s}from"./index.C7t5ZQxJ.20260922154305.js";var c=t({name:`Redirect`,__name:`index`,setup(t){let c=r(),l=i(),u=o(l.query[s]);return c.replace(u??{name:a.children.index.name}),(t,r)=>(n(),e(`div`))}});export{c as default};

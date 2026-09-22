@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- 面向澳门用户：lang 声明繁体中文（港澳写法），避免浏览器按简体习惯渲染/断词 -->
+<html lang="zh-Hant-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <!-- viewport-fit=cover：让页面延伸到刘海/底部小黑条区域，配合 safe-area-inset-* 自己留白
+         （不加的话 iOS 上 env(safe-area-inset-bottom) 恒为 0，tabbar 会被 Home 指示条压住） -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>EBike Swap</title>
+
+    <!-- ===== PWA / 添加到主屏幕 ===== -->
+    <!-- manifest 由 vite-plugin-pwa 在构建时注入；下面这些是 iOS 只认私有 meta 的部分 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- standalone 下状态栏：黑色文字配浅色状态栏，跟 theme_color 的绿色底一致 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="換電" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180x180.png" />
+    <script type="module" crossorigin src="./assets/index.C7t5ZQxJ.20260922154305.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/runtime-core.esm-bundler.z6JJE0Ug.20260922154305.js">
+    <link rel="modulepreload" crossorigin href="./assets/icon.DZERP9-W.20260922154305.js">
+    <link rel="modulepreload" crossorigin href="./assets/function-call.BQClqzK4.20260922154305.js">
+    <link rel="stylesheet" crossorigin href="./assets/icon.CnmHVg-6.20260922154305.css">
+    <link rel="stylesheet" crossorigin href="./assets/index.bpiVz2rf.20260922154305.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
